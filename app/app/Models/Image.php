@@ -10,13 +10,13 @@ class Image extends Model
 {
     use HasFactory;
 
-
+   
     protected $fillable = ["name", "url", "reference", "presentation_id"];
 
     public static $rules = [
-        'name' => 'required|unique:tasks,title',
+        'name' => 'required|unique:images,name',
         'url' => 'nullable|string|max:1000',
-        'reference' => 'required|integer|unique:Image,reference',
+        'reference' => 'required|unique:images,reference',
         'presentation_id' => 'required|integer',
 
     ];
