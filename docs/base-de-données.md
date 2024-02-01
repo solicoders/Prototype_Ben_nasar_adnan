@@ -33,3 +33,5 @@ php artisan migrate:fresh
 - presentations (id,title,content,reference,created_at,updated_at)
 - images (id,name,url,reference,presentation_id,created_at,updated_at)
 
+
+
