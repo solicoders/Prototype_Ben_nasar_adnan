@@ -42,6 +42,7 @@ class ImageSeeder extends Seeder
             "reference" => "moo",
             "presentation_id" => 4
         ]);
+   
       
     }
 }
