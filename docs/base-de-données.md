@@ -28,7 +28,7 @@ php artisan migrate:fresh
 
 ```
 
-## de la base de données
+## le MLD de la base de données
 
 - presentations (id,title,content,reference,created_at,updated_at)
 - images (id,name,url,reference,presentation_id,created_at,updated_at)
