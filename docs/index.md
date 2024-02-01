@@ -4,4 +4,8 @@
  ![creation-app](./création-app.md)
 
 - Lien vers doc/base-de-données.md
- ![creation-app](./création-app.md)
+ ![base-de-données](./base-de-données.md)
+
+
+- Lien vers doc/jeux-test.md
+ ![jeux-test](./jeux-test.md)
